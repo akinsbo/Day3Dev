@@ -1,0 +1,24 @@
+{
+  {
+  "plugins": [
+    "react"
+    ]
+  },
+  {
+  "settings": {
+    "react": {
+      "createClass": "createReactClass",
+      "pragma": "React",
+      "version": "15.0"
+      }
+    }
+  },
+  {
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+      }
+    }
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"]
+}
